@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+    color: orange;
+    margin: 2rem;
+}
+.git-wrapper {
+    margin: 0 50px;
+}
+.git-wrapper .str {
+    color: red!important;
+    font-family: sans-serif;
+}
+.gist-meta {
+    display: none;
+}
