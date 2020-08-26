@@ -16,19 +16,19 @@
         <div class='container git-wrapper'>
 
             <div class='row git-row'>
-
+                <!-- loop through the database, passes the result of the query as a variable "$url" -->
                 <?php foreach($result as $url) { ?>
 
                     <div class="col-md-4 git-single">
 
                         <script src="http://gist-it.appspot.com/<?php echo $url['url']; ?>"></script>
-
+                    <!-- end column -->
                     </div>
-
+                <!-- end foreach loop -->
                 <?php } ?>     
-
+            <!-- end row -->
             </div>
-
+        <!-- end container -->
         </div>  
 
 </body>
